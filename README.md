@@ -1,21 +1,21 @@
 # AGAVELAB TEST
 
 ### Installation and use
-> First of all you will need to create a database named = `agavelabtest`
+First of all you will need to create a database named = `agavelabtest`
 
 Then install all the dependencies, and run the server.
 ```
 npm install
 node app.js
 ```
-> in order to have the products in the database you will need to run the seeder file with ` node models/seeder/products-seeder.js `
+in order to have the products in the database you will need to run the seeder file with ` node models/seeder/products-seeder.js `
 
 once the server is running you will be able to use the endpoints
 
 ### Product check endpoint
 
-> the `/api/products` enpoint needs an array with the list of items whit the next structure
-> items code in the db = ` PANTS, TSHIRT, HAT `
+the `/api/products` enpoint needs an array with the list of items whit the next structure
+items code in the db = ` PANTS, TSHIRT, HAT `
 
 | endpoint                      | data                         | header                       |
 |-------------------------------|------------------------------|------------------------------|
@@ -25,7 +25,7 @@ it will return the total of the items
 
 ### User check endpoint
 
-> you will need to make yourself an user and login to get the token needed to use the products endpoint
+you will need to make yourself an user and login to get the token needed to use the products endpoint
 
 | endpoint                      | data                         |
 |-------------------------------|------------------------------|
